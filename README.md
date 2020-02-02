@@ -22,7 +22,10 @@ You will also see any lint errors in the console.
 
 ## Manage data from admin panel
 
-For managing data and files you should login [here](https://develop.backendless.com/);
-Use this credentials for login: d1853400@urhen.com/123123;
-**List of registered users:** On menu click *Data* => On section *System data* click *Users*
-**List of uploaded files(avatars):** On menu click *Files* => Select *uploads* folders
+For managing data and files you should login [here](https://develop.backendless.com/);<br />
+
+Use this credentials for login: d1853400@urhen.com/123123;<br />
+
+**List of registered users:** On menu click *Data* => On section *System data* click *Users*;<br />
+
+**List of uploaded files(avatars):** On menu click *Files* => Select *uploads* folders;<br />
