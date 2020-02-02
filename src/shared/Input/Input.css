@@ -1,0 +1,15 @@
+.Input {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  margin: 15px 0;
+  max-width: 100%;
+  width: 480px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  border: 2px solid #fff;
+  background: #fff;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #010101;
+}

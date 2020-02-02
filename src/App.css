@@ -1,0 +1,54 @@
+.App {
+  min-height: 100vh;
+  background: url('./assets/hero.jpg') no-repeat;
+  background-size: 100vw 100vh;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.App .container {
+  height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.message {
+  padding: 10px 15px;
+  color: #010101;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.message.error {
+  background: #e39790;
+  border: 2px solid #911409;
+}
+
+@media screen and (max-width: 1092px) {
+  .App {
+    background-size: auto 100%;
+  }
+  .App .container {
+    height: auto;
+    min-height: calc(100vh - 140px);
+    padding-bottom: 15px;
+  }
+  .message {
+    display: block;
+  }
+}

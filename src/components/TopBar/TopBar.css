@@ -1,0 +1,71 @@
+.TopBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.TopBar .mobile-button {
+  display: none;
+}
+
+.TopBar .logo {
+  height: 100%;
+}
+
+.TopBar .logo img {
+  width: 80px;
+  padding: 10px 20px;
+}
+
+.TopBar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+}
+
+.TopBar nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.24rem;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .TopBar .mobile-button {
+    display: block;
+    padding: 0 15px;
+  }
+  .TopBar .mobile-button button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 45px;
+  }
+  .TopBar nav {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 100%;
+  }
+  .TopBar nav.show-menu {
+    display: block;
+  }
+  .TopBar nav ul {
+    flex-direction: column;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 0;
+    text-align: center;
+  }
+  .TopBar nav ul li a { 
+    color: #010101;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+  }
+}

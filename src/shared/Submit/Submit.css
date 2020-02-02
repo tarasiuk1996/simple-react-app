@@ -1,0 +1,26 @@
+.Submit {
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  margin: 15px 0;
+  max-width: 100%;
+  width: 480px;
+  font-family: 'Times New Roman', Times, serif;
+  background: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+  color: #fff;
+  display: block;
+  box-sizing: border-box;
+}
+
+.Submit:hover {
+  background: #fff;
+  color: #010101;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1092px) { 
+  .Submit {
+    margin: 15px auto;
+  } 
+}

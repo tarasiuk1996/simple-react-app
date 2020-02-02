@@ -1,0 +1,56 @@
+.Profile {
+  width: 75%;
+  height: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Profile h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+.Profile form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Profile .form-container {
+  display: flex;
+  align-items: center;
+}
+
+.Profile .image-container img {
+  max-height: 100px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1092px) {
+  .Profile {
+    min-height: 100%;
+    padding: 20px 15px;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    height: auto;
+  }
+  .Profile form {
+    display: block;
+  }
+  .Profile .form-container {
+    display: block;
+  }
+  .Profile input {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  .Profile .form-container input[type=submit] {
+    margin: 10px auto;
+  }
+}

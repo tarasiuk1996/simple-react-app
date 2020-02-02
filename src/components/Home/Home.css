@@ -1,0 +1,33 @@
+.Home {
+  width: 75%;
+  height: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.Home h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+.Home p {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1092px) {
+  .Home {
+    height: 100%;
+    padding: 20px 15px;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
